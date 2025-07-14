@@ -3,12 +3,77 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial;
+    font-size: 22px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 .site {
     width: 80%;
     max-width: 1180px;
     margin: 0 auto;
 }
 
-.footer__img {
+.header__title {
+    margin: 50px 0;
+}
+
+.main .main__foto {
+    text-align: center;
+}
+
+.main .main__links {
+    list-style: none;
+    margin: 50px 0;
+}
+
+.main .main__links .main__link:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.main .main__information {
+    margin-bottom: 50px;
+}
+
+.main__information__title {
+    margin-bottom: 20px;
+}
+
+.main .main__information .main__information__description {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.footer .footer__github__link {
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+.footer__logo {
     width: 200px;
+}
+
+.footer__img__link {
+    width: 200px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
