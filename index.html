@@ -129,7 +129,7 @@
           <pre class="code__pre">
             <code class="code__sample">
               edit(id, userObject) {
-                  this.data = this.data.map((user) => {
+                  this.data = this.data.map((user) =&gt; {
                       const { data: { id: userId } } = user;
                       if (userId === id) {
                           user.edit(userObject);
