@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CV. Alexander Savenkov</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="image/x-icon" href="108679599.jfif" rel="shortcut icon" >
+  </head>
+  <body>
+    <div class="site">
+      <header class="header">
+        <h1 class="header__title">Alexander Savenkov</h1>
+
+        <nav class="nav">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#contacts" class="nav__item__link">Contacts</a>
+            </li>
+            <li class="nav__item">
+              <a href="#summary" class="nav__item__link">Summary</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__item__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#code" class="nav__item__link">Code</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__item__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#languages" class="nav__item__link">Languages</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__item__link">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="main__foto">
+          <img
+            src="https://avatars.githubusercontent.com/u/108679599"
+            alt="My foto"
+          >
+        </section>
+
+        <section class="main__contacts">
+          <h2 id="contacts" class="main__contacts__title">Contacts</h2>
+
+          <ul class="main__contacts__links">
+            <li class="main__link">
+              <a
+                href="mailto:sav.alex.fe@gmail.com"
+                target="_blank"
+                title="Redirect to my Email"
+              >
+                Email
+              </a>
+            </li>
+            <li class="main__link">
+              <a
+                href="https://t.me/Aleek256"
+                target="_blank"
+                title="Redirect to my Telegram"
+              >
+                Telegram
+              </a>
+            </li>
+            <li class="main__link">
+              <a
+                href="https://www.linkedin.com/in/alexander-s-67b80a309/"
+                target="_blank"
+                title="Redirect to my Linkedin page"
+              >
+                Linkedin
+              </a>
+            </li>
+            <li class="main__link">
+              <p class="main__discord bold">
+                My Discord nickname:
+                <span class="free_bold">alexandersavenkov.</span>
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="main__information">
+          <h2 id="summary" class="main__information__title">Summary</h2>
+
+          <p class="main__information__description">
+            I am a goal-oriented Frontend developer. I strive for professional
+            growth and for this purpose I constantly improve my knowledge and
+            skills. My passion is to create interactive and beautiful web
+            applications using modern technologies. I can adaptively layout
+            layouts of varying complexity using the BEM methodology. I am
+            confident in my skills in HTML, CSS, JavaScript and TypeScript, and
+            also have experience working with modern libraries such as React and
+            Ant Design. I am ready to share my experience and learn something
+            new from my colleagues! I easily start and maintain conversations on
+            any topic. During work, I do not lose my composure in conflict
+            situations.
+          </p>
+        </section>
+
+        <section class="main__skills">
+          <h2 id="skills" class="main__skills__title">Skills</h2>
+
+          <ul class="main__skills__items">
+            <li class="main__skills__item">HTML 5</li>
+            <li class="main__skills__item">CSS 3</li>
+            <li class="main__skills__item">JavaScript</li>
+            <li class="main__skills__item">TypeScript</li>
+            <li class="main__skills__item">React</li>
+            <li class="main__skills__item">Ant Design</li>
+            <li class="main__skills__item">MUI</li>
+            <li class="main__skills__item">Mob X</li>
+            <li class="main__skills__item">Redux</li>
+            <li class="main__skills__item">Git</li>
+            <li class="main__skills__item">Vite</li>
+            <li class="main__skills__item">PhotoShop</li>
+            <li class="main__skills__item">Figma</li>
+          </ul>
+        </section>
+
+        <section class="code">
+          <h2 id="code" class="code__title">Code</h2>
+
+          <pre class="code__pre">
+            <code class="code__sample">
+              edit(id, userObject) {
+                  this.data = this.data.map((user) =&gt; {
+                      const { data: { id: userId } } = user;
+                      if (userId === id) {
+                          user.edit(userObject);
+                      };
+                      return user;
+                  });
+                  this.setLocalStorage();
+              };
+            </code>
+          </pre>
+        </section>
+
+        <section class="education">
+          <h2 id="education" class="education__title">Education</h2>
+
+          <ul class="education__items">
+            <li class="education__item">
+              <h3 class="education__item__title">
+                Education center "MyItSchool"
+              </h3>
+              <p class="education__item__subtitle">Frontend Developer</p>
+              <p class="education__item__year">2023-2024</p>
+            </li>
+            <li class="education__item">
+              <h3 class="education__item__title">
+                Belarussian National Technical University
+              </h3>
+              <p class="education__item__subtitle">
+                Transport (Master's Degree)
+              </p>
+              <p class="education__item__year">2017-2018</p>
+            </li>
+            <li class="education__item">
+              <h3 class="education__item__title">
+                Belarussian National Technical University
+              </h3>
+              <p class="education__item__subtitle">
+                International Transportations (Bachelor's Degree)
+              </p>
+              <p class="education__item__year">2013-2017</p>
+            </li>
+            <li class="education__item">
+              <h3 class="education__item__title">
+                Academy of Postgraduation Education
+              </h3>
+              <p class="education__item__subtitle">
+                Interpreter of Foreign Language (Bachelor's Degree)
+              </p>
+              <p class="education__item__year">2015-2017</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="languages">
+          <h2 id="languages" class="languages__title">Languages</h2>
+
+          <ul class="languages__items">
+            <li class="languages__item">English - B1</li>
+            <li class="languages__item">Russian - C1</li>
+            <li class="languages__item">Belarussian - B2</li>
+          </ul>
+        </section>
+
+        <section class="projects">
+          <h2 id="projects" class="projects__title">Projects</h2>
+
+          <ul class="projects__items">
+            <li class="projects__item">
+              <a
+                href="https://github.com/alexsav29/TodoList-JS"
+                class="project__link"
+                target="_blank"
+              >
+                TodoList (JS)
+              </a>
+            </li>
+            <li class="projects__item">
+              <a
+                href="https://github.com/alexsav29/ContactsBook-JS"
+                class="project__link"
+                target="_blank"
+              >
+                ContactsBook (JS)
+              </a>
+            </li>
+            <li class="projects__item">
+              <a
+                href="https://github.com/alexsav29/Weather-Widget-JS"
+                class="project__link"
+                target="_blank"
+              >
+                Weather-Widget (JS)
+              </a>
+            </li>
+            <li class="projects__item">
+              <a
+                href="https://github.com/alexsav29/TodoList-React"
+                class="project__link"
+                target="_blank"
+              >
+                TodoList (React)
+              </a>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="footer__date">2025</p>
+
+        <a
+          class="footer__github__link"
+          href="https://github.com/alexsav29"
+          target="_blank"
+          title="Redirect to my Github page"
+        >
+          My Github page
+        </a>
+
+        <a
+          class="footer__img__link"
+          href="https://rs.school/courses/javascript-ru"
+          target="_blank"
+          title="Redirect to RS School JavaScript Course"
+        >
+          <img
+            class="footer__logo"
+            src="rs-school-logo.svg"
+            alt="RS School Logo"
+          >
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>

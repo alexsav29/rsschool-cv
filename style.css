@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 22px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.free_bold {
+    font-weight: normal;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.site {
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.main .main__contacts__links,
+.main .main__information .main__information__description,
+.main__skills__items,
+.code__pre,
+.education__items,
+.languages__items,
+.projects__items {
+    margin: 50px 50px 100px;
+}
+
+.header .nav__items,
+.main .main__contacts__links,
+.main__skills__items {
+    list-style: none;
+}
+
+.header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.header .header__title {
+    margin: 50px 0;
+    padding: 100px 0 70px;
+}
+
+.header .nav__items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header .nav__item__link {
+    padding: 20px 30px;
+    display: block;
+    border-radius: 20px 30px;
+
+    background-color: #cecece;
+}
+
+
+.main .main__foto {
+    text-align: center;
+}
+
+
+.main .main__contacts__links .main__link:not(:last-child),
+.main__skills__item {
+    margin-bottom: 15px;
+}
+
+.main .main__information {
+    margin-bottom: 50px;
+}
+
+.main__information__title {
+    margin-bottom: 20px;
+}
+
+.main .main__information .main__information__description {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.main__skills__items {
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.education__item {
+    margin-bottom: 30px;
+}
+
+.education__item__title,
+.education__item__subtitle {
+    margin-bottom: 7px;
+}
+
+.projects__item {
+    margin-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #cecece;
+}
+
+.footer .footer__github__link {
+    display: inline-block;
+}
+
+.footer__logo {
+    width: 200px;
+}
+
+.test {
+    font-size: 36px;
+}
